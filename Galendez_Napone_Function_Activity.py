@@ -17,22 +17,13 @@ def multiply3():
 
 if userInput1 == userInput2 == userInput3:
     multiply()
-elif userInput1 == userInput2 > userInput3:
+elif userInput1 == userInput2 != userInput3:
     multiply2()
-elif userInput1 == userInput2 < userInput3:
-    multiply2()
-elif userInput1 < userInput2 == userInput3:
+
+elif userInput1 != userInput2 == userInput3:
     multiply3()
-elif userInput1 > userInput2 == userInput3:
-    multiply3()
-elif userInput1 > userInput2 > userInput3:
+
+elif userInput1 != userInput2 != userInput3:
     sumall()
-elif userInput1 < userInput2 < userInput3:
-    sumall()
-elif userInput1 < userInput2 < userInput3:
-    sumall()
-elif userInput1 > userInput2 < userInput3:
-    sumall()
-elif userInput1 < userInput2 > userInput3:
-    sumall()
+
 
